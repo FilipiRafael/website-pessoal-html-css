@@ -1,0 +1,93 @@
+body {
+    color: white;
+    background-color: rgb(1, 1, 27);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 15em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(12, 160, 209);
+}
+
+.avatar-title-section {
+    text-align: center;
+}
+
+.avatar-home {
+    margin: 2.5em 0;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(12, 160, 209);
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(12, 160, 209);
+}
+
+.main-content {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.main-content h3 {
+    color: lightblue;
+}
+
+.main-content p {
+    padding: 0 30em;
+    text-align: center;
+}
+
+.list-stacks {
+    margin-top: 4em;
+}
+
+.stack {
+    list-style-type: none;
+}
+
+.stack:nth-child(2n) {
+    color: rgb(12, 160, 209);
+}
+
+footer {
+    border-top: 1px solid rgba(211, 211, 211, 0.068);
+    padding: 1em 0;
+    background-color: #FEFEFE;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+}
+
+.item-social-link img {
+    width: 30px;
+}
+
+.item-social-link a {
+    text-decoration: none;
+    margin: 0 3em;
+    color: rgb(126, 126, 126);
+    transition: color 0.5s;
+}
+
+.item-social-link a:hover {
+    color:rgb(12, 160, 209);
+}
