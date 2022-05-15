@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="https://github.com/filipirafael" target="_blank">Projetos</a></li>
+                <li><a href="./contact.html" target="_blank">Contato</a></li>
+            </ul>
+        </nav>
+        <section class="avatar-title-section">
+            <img src="https://github.com/filipirafael.png" alt="Foto de Avatar" class="avatar-home" />
+            <h1>Filipi Rafael</h1>
+            <h2>Desenvolvedor Full Stack</h2>
+        </section>
+    </header>
+    <div class="container-form">
+        <form class="contact-form" action="https://formsubmit.co/filipirafael.123@gmail.com" method="POST">
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <label for="message">Mensagem</label>            
+            <div>
+                <input type="text" name="message" id="message" required />
+            </div>
+            <div class="container-button">
+            <button type="submit">Enviar</button>
+            </div>
+            <input type="hidden" name="_next" value="https://filipirafael.github.io/website-pessoal-html-css/thanks.html">
+       </form>
+    </div>
+</body>
+</html>
