@@ -1,5 +1,35 @@
-.container-form {
+.container-form{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container-form form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.container-form input {
+    padding: 1em 2em;
+    margin: 1.5em 0;
+}
+
+.container-form button {
+    padding: 1em 4em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(12, 160, 209);
+    box-shadow: 1px 1px 5px blue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 2em 0;
+    transition: all 0.5s;
+}
+
+.container-form button:hover {
+    background-color: rgb(14, 182, 238);
+    cursor: pointer;
 }
